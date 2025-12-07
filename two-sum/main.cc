@@ -13,12 +13,6 @@ class Solution {
         }
         sort(num_with_index.begin(), num_with_index.end());
 
-        std::cout << "Sorted array with indices: ";
-        for (const auto& p : num_with_index) {
-            std::cout << "(" << p.first << ", " << p.second << ") ";
-        }
-        std::cout << std::endl;
-
         // 2. use two pointers to find the target
         int left = 0;
         int right = nums.size() - 1;
