@@ -27,11 +27,11 @@ class Solution {
         }
 
         for (int i = common_size; i < w1_size; ++i) {
-            result[i] = w1[i];
+            result[common_size + i] = w1[i];
         }
 
         for (int i = common_size; i < w2_size; ++i) {
-            result[i] = w2[i];
+            result[common_size + i] = w2[i];
         }
 
         result[w1_size + w2_size] = '\0';
