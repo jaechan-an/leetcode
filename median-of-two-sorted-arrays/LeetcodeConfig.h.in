@@ -1,0 +1,6 @@
+// The configured options and settings for this project
+#define Leetcode_Template_VERSION_MAJOR @Leetcode_VERSION_MAJOR@
+#define Leetcode_Template_VERSION_MINOR @Leetcode_VERSION_MINOR@
+#cmakedefine USE_LEETCODE
+#cmakedefine USE_GOOGLE_TEST
+
